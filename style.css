@@ -1,0 +1,66 @@
+
+/* rgba(248,	226,	187, 1)
+rgba(198,	200,	174, 1)
+rgb(235	235	221	)
+*/
+
+* {
+  background-color: rgb(235	235	221	);
+  font-family: 'Montserrat', sans-serif;
+}
+#headshot{
+  grid-area: headshot;
+}
+
+.header{
+  grid-area: header;
+}
+
+.sidebar{
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
+
+/* For Mobile */
+/* @media only screen and (max-device-width: 508px) and (max-width: 508px) { */
+  .wrapper {
+    padding: 2rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "headshot"
+      "header"
+      "sidebar"
+      "content";
+  }
+
+   .sidebar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+
+
+/* For Desktop */
+@media only screen and (min-device-width: 768px) and (min-width: 768px) {
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas:
+    ".... header"
+    "headshot content"
+    "sidebar ....";
+    grid-gap: 20px;
+
+  }
+  .sidebar {
+    display: block;
+
+  }
+}
