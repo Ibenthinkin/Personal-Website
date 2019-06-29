@@ -8,7 +8,11 @@ rgb(235	235	221	)
   background-color: rgb(235	235	221	);
   font-family: 'Montserrat', sans-serif;
 }
-#headshot{
+a {
+  font-family: 'Montserrat', sans-serif;
+
+}
+.headshot-container{
   grid-area: headshot;
 }
 
@@ -27,7 +31,7 @@ rgb(235	235	221	)
 /* For Mobile */
 /* @media only screen and (max-device-width: 508px) and (max-width: 508px) { */
   .wrapper {
-    padding: 2rem;
+    padding: 4rem;
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
@@ -36,11 +40,21 @@ rgb(235	235	221	)
       "sidebar"
       "content";
   }
+  .header{
+    margin: 0 auto;
+  }
+  .headshot-container {
+    max-width: 500px;
+    margin: auto;
+  }
 
    .sidebar {
     display: flex;
-    flex-flow: row;
+    /* flex-flow: row; */
+    min-height: 100px;
     justify-content: space-between;
+    align-items: center;
+    font-size: 275%
   }
 
 
@@ -57,10 +71,19 @@ rgb(235	235	221	)
     "headshot content"
     "sidebar ....";
     grid-gap: 20px;
-
   }
   .sidebar {
-    display: block;
-
+    display: grid;
+    font-size: 100%
   }
+
+  .sidebar a {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .headshot-container {
+    max-width: 100%;
+  }
+
 }
