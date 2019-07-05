@@ -45,8 +45,10 @@ a {
       "content";
   }
   .header{
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 3rem;
   }
+
   .headshot-container {
     max-width: 500px;
     margin: auto;
@@ -75,8 +77,13 @@ a {
     " sidebar content";
     grid-gap: 20px;
   }
-  .header {
-    font-size: 200%
+  .header{
+    margin: 0;
+    
+  }
+  .letter {
+    font-family: 'Lato', sans-serif;
+    font-size: 175%
   }
   .sidebar {
     display: block;
@@ -96,27 +103,36 @@ a {
     max-width: 100%;
   }
 
-  /* Where the magic begins: */
-
-/* .shiny {
-  background-image: -webkit-linear-gradient(left, black 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
-  background-image: linear-gradient(90deg, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
-  background-position: right center;
-  background-size: 400% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: white;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  transition: color 200ms linear;
-  border: 1px;
 }
 
-.shiny:hover {
-  background-position: left center;
-  color: #ef9671;
-  transition: background-position 2000ms ease-out;
-} */
+ .red1 {
+   color: rgb(186,	42,	20);
+   }
+
+ /*
+ .red2 = rgb(184,	54,	38	)
+
+ blue1 = rgb(10,	34,	111	)
+ blue2 = rgb(39,	51,	140	)
+ blue3 = rgb(32,	54,	91	)
+
+ green1 = rgb(75,	159,	67	)
+ green2 = rgb(11,	73,	31	)
+ green3 = rgb(20,	156,	136	)
+
+ yellow1 = rgb(246,	186,	9	)
+ yellow2 = rgb(246,	200,	40	)
+
+ orange = rgb(220,	88,	66	)
+
+ redOrange = rgb(232,	0,	29	)
+
+ millenialPink = rgb(228,	169,	166	) */
 
 
-}
+/* const color3 = rgb(235,	237,	179	)
+const color7 = rgb(178,	133,	67	)
+const color11= rgb(32,	136,	199	)
+const color13 = rgb(94,	192,	242	)
+const color14= rgb(103,	123,	117	)
+const color18 = rgb(0,0,0) */
