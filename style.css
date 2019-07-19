@@ -1,31 +1,20 @@
 
-/* rgba(248,	226,	187, 1)
-rgba(198,	200,	174, 1)
-rgb(213,213,213)
-rgb(235	235	221	)
-rgb(235	235	221	)
-*/
 
 * {
   background-color: rgb(245,245,245);
-  font-family: 'Montserrat', sans-serif;
 }
 a {
-  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   text-decoration: none;
   color: black;
 }
+
 .headshot-container{
   grid-area: headshot;
 }
 
-.header{
-  grid-area: header;
-}
-
-.sidebar{
-  grid-area: sidebar;
+.nav{
+  grid-area: nav;
 }
 
 .content {
@@ -40,28 +29,29 @@ a {
     grid-gap: 20px;
     grid-template-areas:
       "headshot"
-      "header"
-      "sidebar"
+      "nav"
       "content";
   }
-  .header{
-    width: 100%;
-    margin-left: 3rem;
-  }
+
 
   .headshot-container {
     max-width: 500px;
     margin: auto;
   }
 
-   .sidebar {
+
+   .nav {
     display: flex;
-    /* flex-flow: row; */
     min-height: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    font-size: 275%
+    font-size: 400%;
   }
+
+  .content{
+    font-family: 'Montserrat', sans-serif;
+  }
+
 
 
 
@@ -71,68 +61,39 @@ a {
     max-width: 820px;
     margin: 0 auto;
     padding: 1rem;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-    "headshot header"
-    " sidebar content";
-    grid-gap: 20px;
-  }
-  .header{
-    margin: 0;
-    
-  }
-  .letter {
-    font-family: 'Lato', sans-serif;
-    font-size: 175%
-  }
-  .sidebar {
-    display: block;
-    font-size: 100%;
-    margin-top: 12px;
+    "headshot"
+    "nav"
+    "content";
+    grid-gap: 10px;
   }
 
-  .sidebar a {
-    /* margin-top: 100px; */
-    line-height: 30px;
-    margin-left: 15px;
+
+  .nav {
+   display: flex;
+   /* flex-flow: row; */
+   min-height: 3rem;
+   justify-content: center;
+   align-items: center;
+   font-size: 180%
+ }
+
+
+  .nav a {
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-decoration: none;
     color: black;
   }
 
   .headshot-container {
-    max-width: 100%;
+    max-width: 25%;
+    margin-top: 1.2rem;
+  }
+
+  .content{
+    font-family: 'Montserrat', sans-serif;
   }
 
 }
-
- .red1 {
-   color: rgb(186,	42,	20);
-   }
-
- /*
- .red2 = rgb(184,	54,	38	)
-
- blue1 = rgb(10,	34,	111	)
- blue2 = rgb(39,	51,	140	)
- blue3 = rgb(32,	54,	91	)
-
- green1 = rgb(75,	159,	67	)
- green2 = rgb(11,	73,	31	)
- green3 = rgb(20,	156,	136	)
-
- yellow1 = rgb(246,	186,	9	)
- yellow2 = rgb(246,	200,	40	)
-
- orange = rgb(220,	88,	66	)
-
- redOrange = rgb(232,	0,	29	)
-
- millenialPink = rgb(228,	169,	166	) */
-
-
-/* const color3 = rgb(235,	237,	179	)
-const color7 = rgb(178,	133,	67	)
-const color11= rgb(32,	136,	199	)
-const color13 = rgb(94,	192,	242	)
-const color14= rgb(103,	123,	117	)
-const color18 = rgb(0,0,0) */

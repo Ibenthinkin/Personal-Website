@@ -3,55 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Ben Reilly Personal Wesbsite</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='./style.css'/>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <h1 class='title'>
-        <span class="letter red1">W</span>
-        <span class="letter">E</span>
-        <span class="letter">L</span>
-        <span class="letter">C</span>
-        <span class="letter">O</span>
-        <span class="letter">M</span>
-        <span class="letter">E</span>
-        <span class="space">&nbsp;</span>
-        <span class="letter">F</span>
-        <span class="letter">R</span>
-        <span class="letter">I</span>
-        <span class="letter">E</span>
-        <span class="letter">N</span>
-        <span class="letter">D</span>
-        <span class="letter">S</span>
-        <span class="letter">!</span>
-
-        </h1>
       </header>
-      <div class="headshot-container"><img src="./assets/headshot.png" id="headshot" alt="drawn by Sari Widman" style="width:100%;"></div>
-      <sidebar class="sidebar">
-        <a href="https://medium.com/@ibenthinkin">Blog</a>
-        <a href="https://github.com/Ibenthinkin/">GitHub</a>
-        <a href="https://www.linkedin.com/in/ben-reilly/">LinkedIn</a>
-        <a href="mailto:benjamin.reilly@gmail.com">Email</a>
-      </sidebar>
+      <div title="Me.  I wear wool caps cause I get cold. Cause I have no hair."
+       class="headshot-container"><img src="./assets/headshot.png" 
+       id="headshot" alt="drawn by Sari Widman" style="width:100%;">
+      </div>
+      <nav class="nav">
+        <a title="Blog" href="https://medium.com/@ibenthinkin"><i class="fab fa-medium-m"></i></a>
+        <a title="Github" href="https://github.com/Ibenthinkin/"><i class="fab fa-github"></i></a>
+        <a title="LinkedIn"href="https://www.linkedin.com/in/ben-reilly/"><i class="fab fa-linkedin-in"></i></a>
+        <a title="email" href="mailto:benjamin.reilly@gmail.com"><i class="far fa-envelope"></i></a>
+      </nav>
       <content class="content">
-        <p>Thank you much for visiting my webiste!  My name is Ben Reilly and I am a
-        software engineer who does full-stack web development.</p>
-        <p>I have many interests, but I at the moment I enjoy making things with and learning about
+        <about class="about">
+        <h2>About</h2>
+        <p>Hi! Thank you for visiting!  My name is Ben Reilly and I am a
+        software engineer and/or full-stack web developer.
+        </p>
+        <p>I have many interests, but at the moment I enjoy making things with, and learning about
         human computer interaction, experimental user interfaces, machine learning
         (especailly natural langauge processing), and generative art.  These are subjects where one doesn't
         need to go to deep to experience the magical, uncanny, and deeply weird phenomena of computers and the internet.
-      </p>
-      <p>I like to think of internet, even the seemingly cold, mechanical, or commercial parts of it, as a
-      massive communal artistic project we are all doing together.  Kind of like a city; any scene or moment within it becomes
-      a work of art as soon as you snap a photo of it.  I think code is a tool but it is also a material, a medium in it's own right.
-      We use it to make things, but they can have a sort of life of their own.  It is a great simulacrum, a self-prtrait of huamnity, an as such,
-      and opportunity to see ourselves and learn some things;)</p>
-
+        </p>
+        <p>I like to think of the internet, even the seemingly cold, mechanical, or commercial parts of it, as a
+        massive communal artistic project we are all doing together.  It's kind of like a city; any scene within it becomes
+        a work of art as soon as you snap a photo.  I think code is a tool but it is also a material, a medium in it's own right.
+        The things we make are not just inert objects, they are alive! Sort of ;)
+        </p>
+      </about>
+      <projects class="projects">
+        <h2>Projects</h2>
+          <p>Forthcoming</p>
+      </projects>
       </content>
     </div>
+    <script src="https://kit.fontawesome.com/1d670b33a7.js"></script>
 
   </body>
 </html>
