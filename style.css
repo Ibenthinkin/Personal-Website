@@ -28,7 +28,7 @@ a {
 
 /* For Mobile */
 @media only screen 
-  and (min-device-width: 320px) { 
+  and (min-device-width: 320px) and (max-device-width: 736px) { 
 
 
   .wrapper {
@@ -43,7 +43,6 @@ a {
 
 
   .headshot-container {
-    max-width: 500px;
     margin: auto;
   }
 
@@ -96,7 +95,7 @@ a {
   }
 
   .headshot-container {
-    max-width: 25%;
+    max-width: 30%;
     margin-top: 1.2rem;
     margin-left: auto;
     margin-right: auto;
