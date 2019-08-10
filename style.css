@@ -9,7 +9,7 @@ a {
   color: black;
 }
 
-.headshot-container { 
+.headshot { 
   grid-area: headshot;
 }
 
@@ -42,10 +42,13 @@ a {
   }
 
 
-  .headshot-container {
+  .headshot {
     margin: auto;
   }
 
+  .headshot img{
+    width: 400px; 
+  }
 
    .nav {
     display: flex;
@@ -94,7 +97,7 @@ a {
     color: black;
   }
 
-  .headshot-container {
+  .headshot {
     max-width: 30%;
     margin-top: 1.2rem;
     margin-left: auto;
