@@ -25,8 +25,8 @@ a {
 
 
 
-For Mobile
-/* @media (min-width: 350px){ */
+/* For Mobile */
+@media (max-width: 799px ){
   .wrapper {
     padding: 4rem;
     display: grid;
@@ -54,14 +54,13 @@ For Mobile
 
   .content{
     font-family: 'Montserrat', sans-serif;
-    font-size: 300%;
   }
-
+}
 
 
 
 /* For Desktop */
-@media screen (min-width: 800px) {
+@media (min-width: 800px) {
   .wrapper {
     max-width: 820px;
     margin: 0 auto;
