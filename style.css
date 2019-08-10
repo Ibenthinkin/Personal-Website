@@ -21,37 +21,6 @@ a {
   grid-area: content;
 }
 
-/* For Mobile */
-  .wrapper {
-    padding: 4rem;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-areas:
-      "headshot"
-      "nav"
-      "content";
-  }
-
-
-  .headshot-container {
-    max-width: 500px;
-    margin: auto;
-  }
-
-
-   .nav {
-    display: flex;
-    min-height: 100px;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 400%;
-  }
-
-  .content{
-    font-family: 'Montserrat', sans-serif;
-  }
-
-
 
 
 /* For Desktop */
@@ -96,3 +65,36 @@ a {
   }
 
 }
+
+
+
+/* For Mobile */
+  .wrapper {
+    padding: 4rem;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      "headshot"
+      "nav"
+      "content";
+  }
+
+
+  .headshot-container {
+    max-width: 500px;
+    margin: auto;
+  }
+
+
+   .nav {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 400%;
+  }
+
+  .content{
+    font-family: 'Montserrat', sans-serif;
+  }
+
