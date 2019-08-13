@@ -2,6 +2,8 @@
 
 * {
   background-color: rgb(245,245,245);
+  font-family: 'Montserrat', sans-serif;
+
 }
 a {
   text-transform: none;
@@ -20,11 +22,6 @@ a {
 .content {
   grid-area: content;
 }
-
-/* 
- and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) */
-
 
 /* For Mobile */
 @media only screen 
