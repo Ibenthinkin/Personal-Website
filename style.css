@@ -1,5 +1,4 @@
 
-
 body {
   background-color: rgb(245,245,245);
   font-family: 'Montserrat', sans-serif;
@@ -68,6 +67,7 @@ body a:hover {
   .projects {
     display: grid;
     grid-row-gap: 20px; 
+    font-size: 110%
   }
 
   .card {
@@ -78,18 +78,15 @@ body a:hover {
     padding: 1em;
   } 
 
-  .thumbnail {
-    order: 0;
-    align-self: flex-start;
-  }
+
   .thumbnail img {
-    object-fit: cover;
+    width: 100%;
     border-radius: 10px;
   }
 
   .cardLinks {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-row-gap: 2rem;
   }
 
 }
@@ -156,12 +153,16 @@ body a:hover {
     margin-right: 1rem;
   }
 
+  .thumbnail {
+    align-self: center;
+
+  }
+
   .thumbnail img {
-    width: 200px;
+    width: 250px;
     height: 100%;
-    object-fit: cover;
-    align-self: flex-end;
     border-radius: 10px;
+    /* object-fit: scale-down; */
   }
 
   .cardLinks {
@@ -169,7 +170,6 @@ body a:hover {
     justify-content: space-between;
     margin-right: 4rem;
   }
-
 
 }
 
