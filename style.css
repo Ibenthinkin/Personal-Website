@@ -86,8 +86,10 @@ body a:hover {
   }
 
   .cardLinks {
-    display: grid;
-    grid-row-gap: 2rem;
+    /* display: grid;
+    grid-row-gap: 2rem; */
+    display: flex;
+    
   }
 
 }
